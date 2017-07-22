@@ -4,6 +4,9 @@ angular.module('video-player')
   
   controller: function() {
     this.videos = window.exampleVideoData;
+    this.handleClick = function() {
+      console.log('click');
+    };
   }
   
 });
